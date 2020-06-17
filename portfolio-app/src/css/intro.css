@@ -8,12 +8,81 @@ body {
   background-color: #000;
   color: #eee;
 }
-.container {
+.text-content {
   height: 15vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+.my-header {
+  position: absolute;
+  z-index: -22;
+  top: 0;
+  width: 100%;
+}
+
+.my-header .my-navbar {
+  background: rgba(0,0,0,0) !important;
+}
+.myButt {
+	outline:none;
+	border:none;
+  margin-right: 1em;
+  margin-top: .5em;
+	cursor:pointer;
+	font-size:20px;
+	background-color:transparent;
+	/* position:relative; */
+  border: 2px solid #fff;
+  border-radius: .5em;
+  width: 5em;
+
+  transition:all 0.5s ease;
+	-webkit-transition:all 0.5s ease;
+	-moz-transition:all 0.5s ease;
+	-o-transition:all 0.5s ease;
+	-ms-transition:all 0.5s ease;
+}
+
+button.nav-link.myButt.two {
+  color: white;
+}
+
+.two:hover {
+  background-color: white;
+
+  animation:shakeThatBooty 0.3s linear 1;
+	-webkit-animation:shakeThatBooty 0.3s linear 1;
+	-moz-animation:shakeThatBooty 0.3s linear 1;
+	-o-animation:shakeThatBooty 0.3s linear 1;
+	-ms-animation:shakeThatBooty 0.3s linear 1;		
+}
+
+@keyframes shakeThatBooty {
+	33% {
+    transform:rotateZ(10deg);
+    -webkit-transform:rotateZ(10deg);
+    -moz-transform:rotateZ(10deg);
+    -o-transform:rotateZ(10deg);
+    -ms-transform:rotateZ(10deg);
+	}
+	67% {
+    transform:rotateZ(-10deg);
+    -webkit-transform:rotateZ(-10deg);
+    -moz-transform:rotateZ(-10deg);
+    -o-transform:rotateZ(-10deg);
+    -ms-transform:rotateZ(-10deg);
+	}
+	100% {
+    transform:rotateZ(10deg);
+    -webkit-transform:rotateZ(10deg);
+    -moz-transform:rotateZ(10deg);
+    -o-transform:rotateZ(10deg);
+    -ms-transform:rotateZ(10deg);
+	}
+}
+
 .container p {
   font-size: 3rem;
   padding: 0.5rem;

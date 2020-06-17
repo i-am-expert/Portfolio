@@ -14,16 +14,16 @@ class Intro extends Component {
         let charIndex = 0;
 
         function type() {
-        if (charIndex < textArray[textArrayIndex].length) {
-            if(!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
-            typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
-            charIndex++;
-            setTimeout(type, typingDelay);
-        } 
-        else {
-            cursorSpan.classList.remove("typing");
-            setTimeout(erase, newTextDelay);
-        }
+            if (charIndex < textArray[textArrayIndex].length) {
+                if(!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+                typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+                charIndex++;
+                setTimeout(type, typingDelay);
+            } 
+            else {
+                cursorSpan.classList.remove("typing");
+                setTimeout(erase, newTextDelay);
+            }
         }
 
         function erase() {
@@ -48,10 +48,42 @@ class Intro extends Component {
     render() {
         return (
             <div className="mainDiv" style={mainDivStyle}>
+                <div className="my-header">
+                    <nav class="my-navbar navbar navbar-expand-lg navbar-light bg-light">
+                        <div class="container">
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav mr-auto">
+                                </ul>
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <button class="nav-link myButt two">About</button>
+                                    </li>
+                                    <li class="nav-item">
+                                        <button class="nav-link myButt two">Portfolio</button>
+                                    </li>
+                                    <li class="nav-item">
+                                        <button class="nav-link myButt two">Contact</button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>   
+                    </nav>
+                </div>
                 <div className="centered" style={centerStyle}>
                     <h1 style={{fontSize: "3.5em"}}>Hi, I am Rishabh!</h1>
-                    <div className="container" style={{width: "100%"}}>
+                    <div className="container text-content" style={{width: "100%"}}>
                         <p style={{width: "1000px"}}><span className="typed-text"></span><span className="cursor">&nbsp;</span></p>
+                    </div>
+                    <div>
+                        <a href="#" class="hvr-icon-up" style={{color: "inherit", marginRight: "1rem"}}>
+                            <i class="fa fa-4x fa-github hvr-icon" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" class="hvr-icon-up" style={{color: "inherit", marginRight: "1rem"}}>
+                            <i class="fa fa-4x fa-linkedin-square hvr-icon" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" class="hvr-icon-up" style={{color: "inherit"}}>
+                            <i class="fa fa-4x fa-instagram hvr-icon" aria-hidden="true"></i>
+                        </a>
                     </div>
                 </div>
             </div>
