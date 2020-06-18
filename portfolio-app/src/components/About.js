@@ -8,7 +8,9 @@ class About extends Component {
                 <div style={{display: "flex"}}>
                     <h1>ABOUT</h1>
                     <div style={{alignSelf: "center", marginLeft: "45em"}}>
-                        <button className="top-about-btn hvr-underline-from-center" style={{marginRight: "1em"}}>RESUME</button>
+                        <form style={{display: "inline"}} method="get" action="resume.pdf">
+                            <button type="submit" className="top-about-btn hvr-underline-from-center" style={{marginRight: "1em"}}>RESUME</button>
+                        </form>
                         <button className="top-about-btn hvr-underline-from-center">HIRE ME</button>
                     </div>
                 </div>      
