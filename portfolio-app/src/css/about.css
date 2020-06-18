@@ -44,10 +44,16 @@ img {
 
 .top-about-btn {
     background-color: rgb(212, 211, 211);
+    color: black;
     font-size: 1.25em;
     border: none;
     padding: .25em;
     padding-left: .5em;
     padding-right: .5em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.top-about-btn:hover {
+    text-decoration: none;
+    color: black;
 }

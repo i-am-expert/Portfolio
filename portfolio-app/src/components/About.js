@@ -2,16 +2,29 @@ import React, { Component } from 'react';
 import '../css/about.css';
 
 class About extends Component {
+
+    codechef = () => {
+        window.location = "https://www.codechef.com/users/i_am_expert";
+    }
+
+    codeforces = () => {
+        window.location = "https://codeforces.com/profile/rishabh_sethi";
+    }
+
+    leetcode = () => {
+        window.location = "https://leetcode.com/rishabh_sethi/";
+    }
+
     render() {
         return (
-            <div className="container main-div" style={mainDivStyle}>
+            <div className="container main-div" id="about" style={mainDivStyle}>
                 <div style={{display: "flex"}}>
                     <h1>ABOUT</h1>
                     <div style={{alignSelf: "center", marginLeft: "45em"}}>
                         <form style={{display: "inline"}} method="get" action="resume.pdf">
                             <button type="submit" className="top-about-btn hvr-underline-from-center" style={{marginRight: "1em"}}>RESUME</button>
                         </form>
-                        <button className="top-about-btn hvr-underline-from-center">HIRE ME</button>
+                        <a href="#contact" className="top-about-btn hvr-underline-from-center">HIRE ME</a>
                     </div>
                 </div>      
                 <div>
@@ -33,9 +46,9 @@ class About extends Component {
                     <div>
                         <h4 style={{marginBottom: "0.8em"}}>CODING PLATFORMS</h4>
                         <div className="coding-details">
-                            <p><span className="iconify" data-icon="simple-icons:codechef" data-inline="false" style={{marginRight: ".5em"}}></span><button type="button" className="code-btn btn btn-outline-secondary">Codechef</button></p>
-                            <p><span className="iconify" data-icon="simple-icons:codeforces" data-inline="false" style={{marginRight: ".5em"}}></span><button type="button" className="code-btn btn btn-outline-secondary">Codeforces</button></p>
-                            <p><span className="iconify" data-icon="simple-icons:leetcode" data-inline="false" style={{marginRight: ".5em"}}></span><button type="button" className="code-btn btn btn-outline-secondary">Leetcode</button></p>
+                            <p><span className="iconify" data-icon="simple-icons:codechef" data-inline="false" style={{marginRight: ".5em"}}></span><button type="button" onClick={this.codechef} className="code-btn btn btn-outline-secondary">Codechef</button></p>
+                            <p><span className="iconify" data-icon="simple-icons:codeforces" data-inline="false" style={{marginRight: ".5em"}}></span><button type="button" onClick={this.codeforces} className="code-btn btn btn-outline-secondary">Codeforces</button></p>
+                            <p><span className="iconify" data-icon="simple-icons:leetcode" data-inline="false" style={{marginRight: ".5em"}}></span><button type="button" onClick={this.leetcode} className="code-btn btn btn-outline-secondary">Leetcode</button></p>
                         </div>
                     </div>
                 </div>         

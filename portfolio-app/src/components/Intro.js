@@ -56,13 +56,13 @@ class Intro extends Component {
                                 </ul>
                                 <ul className="navbar-nav">
                                     <li className="nav-item">
-                                        <button className="nav-link myButt two">About</button>
+                                        <a href="#about" className="nav-link myButt two">About</a>
                                     </li>
                                     <li className="nav-item">
-                                        <button className="nav-link myButt two">Portfolio</button>
+                                        <a href="#portfolio" className="nav-link myButt two">Portfolio</a>
                                     </li>
                                     <li className="nav-item">
-                                        <button className="nav-link myButt two">Contact</button>
+                                        <a href="#contact" className="nav-link myButt two">Contact</a>
                                     </li>
                                 </ul>
                             </div>
