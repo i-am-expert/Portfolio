@@ -1,0 +1,31 @@
+.footer-div {
+    background-color: rgb(10, 25, 47);
+    height: 12vh;
+    color: white;
+    padding-top: .5em;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    margin-bottom: 0;
+    max-width: 100%;
+}
+
+.footer-icon-class {
+    color: inherit;
+}
+
+.footer-icon-class:hover {
+    color: rgb(100, 255, 218);
+    transform: scale(1.5);
+    transition: transform .5s ease;
+}
+
+.footer-icons a {
+    margin: .4em;
+}
+
+.footer-icon {
+    font-size: 130%;
+}
+
+.footer-div div p span:hover {
+    color: rgb(100, 255, 218);
+}
