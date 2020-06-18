@@ -95,3 +95,32 @@ input:focus {
     background:#78788c;
     color:#fff
 }
+
+.contact-arrow a.fa-chevron-up { 
+    color: black; 
+    text-decoration: none; 
+    font-size: 250%;
+  }
+  
+  .contact-arrow {
+    text-align: center;
+    margin-top: 8vh;
+  }
+
+  .contact-arrow {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }

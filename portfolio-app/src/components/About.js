@@ -51,7 +51,10 @@ class About extends Component {
                             <p><span className="iconify" data-icon="simple-icons:leetcode" data-inline="false" style={{marginRight: ".5em"}}></span><button type="button" onClick={this.leetcode} className="code-btn btn btn-outline-secondary">Leetcode</button></p>
                         </div>
                     </div>
-                </div>         
+                </div>      
+                <div className="about-arrow arrow bounce">
+                    <a href="#portfolio" className="fa fa-chevron-down fa-2x"> </a>
+                </div>
             </div>
         )
     }

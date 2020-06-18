@@ -111,6 +111,9 @@ class Portfolio extends Component {
                         </div>
                     </div>
                 </div>
+                <div className="portfolio-arrow arrow bounce">
+                    <a href="#contact" className="fa fa-chevron-down fa-2x"> </a>
+                </div>
             </div>
         )
     }

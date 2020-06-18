@@ -9,10 +9,10 @@ class Footer extends Component {
                     <p style={{marginBottom: ".2em"}}><span>Designed & built by Rishabh Sethi</span></p>
                 </div>
                 <div className="footer-icons">
-                    <a class="footer-icon-class hvr-grow" href="https://github.com/i-am-expert"><i class="footer-icon fa fa-github"></i></a>
-                    <a class="footer-icon-class hvr-grow" href="https://www.linkedin.com/in/rishabh-sethi-2708/"><i class="footer-icon fa fa-linkedin"></i></a>
-                    <a class="footer-icon-class hvr-grow" href="https://www.facebook.com/rishabh.sethi.79"><i class="footer-icon fa fa-facebook"></i></a>
-                    <a class="footer-icon-class hvr-grow" href="https://www.instagram.com/rishabhsethi2708/"><i class="footer-icon fa fa-instagram"></i></a>
+                    <a className="footer-icon-class hvr-grow" href="https://github.com/i-am-expert"><i className="footer-icon fa fa-github"></i></a>
+                    <a className="footer-icon-class hvr-grow" href="https://www.linkedin.com/in/rishabh-sethi-2708/"><i className="footer-icon fa fa-linkedin"></i></a>
+                    <a className="footer-icon-class hvr-grow" href="https://www.facebook.com/rishabh.sethi.79"><i className="footer-icon fa fa-facebook"></i></a>
+                    <a className="footer-icon-class hvr-grow" href="https://www.instagram.com/rishabhsethi2708/"><i className="footer-icon fa fa-instagram"></i></a>
                 </div>
             </div>
         )

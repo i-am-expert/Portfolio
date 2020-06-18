@@ -86,6 +86,9 @@ class Intro extends Component {
                         </a>
                     </div>
                 </div>
+                <div className="intro-arrow arrow bounce">
+                    <a href="#about" className="fa fa-chevron-down fa-2x"> </a>
+                </div>
             </div>
         )
     }
