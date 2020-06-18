@@ -3,11 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {
-  font-family: 'Montserrat', sans-serif;
-  background-color: #000;
-  color: #eee;
-}
+
 .text-content {
   height: 15vh;
   display: flex;
@@ -83,7 +79,11 @@ button.nav-link.myButt.two {
 	}
 }
 
-.container p {
+.hvr-icon {
+  font-size: 3.5em;
+}
+
+.myPara {
   font-size: 3rem;
   padding: 0.5rem;
   font-weight: bold;
