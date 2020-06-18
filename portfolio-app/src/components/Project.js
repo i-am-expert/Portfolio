@@ -8,7 +8,7 @@ class Project extends Component {
                 <div class="card-head">
                     <i class="folder-icon fa fa-folder-open-o" aria-hidden="true"></i>
                     <a href={this.props.projectURL}>
-                        <i class="fa fa-github" aria-hidden="true"></i>
+                        <i class="github-icon fa fa-github" aria-hidden="true"></i>
                     </a>
                 </div>
                 <div class="project-title">

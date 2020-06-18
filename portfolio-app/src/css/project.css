@@ -10,13 +10,13 @@
     color: rgb(100, 255, 218);
 }
 
-.fa-github {
+.github-icon {
     font-size: x-large;
     float: right;
     color: white;
 }
 
-.fa-github:hover {
+.github-icon:hover {
     color: rgb(100, 255, 218);
 }
 
