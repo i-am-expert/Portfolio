@@ -43,7 +43,7 @@ class Portfolio extends Component {
                         <h1 className="port-sub-heading hvr-underline-from-center">Projects</h1>
                         <div className="projects-wrapper">
                             <Project 
-                                title="Chat-App" 
+                                title="Chat App" 
                                 desc="A chatting application where multiple clients can connect and talk in different rooms. Implemented using concepts of Socket Programming and Nodejs." 
                                 projectURL="https://github.com/i-am-expert/Chat-App"
                                 tags={[
@@ -53,35 +53,61 @@ class Portfolio extends Component {
                                 ]}
                             />
                             <Project 
-                                title="Chat-App" 
-                                desc="A chatting application where multiple clients can connect and talk in different rooms. Implemented using concepts of Socket Programming and Nodejs." 
-                                projectURL="https://github.com/i-am-expert/Chat-App"
+                                title="Fast Word" 
+                                desc="A javascript application to test your typing speed. You can select the difficulty level and can also choose between word test and paragraph test." 
+                                projectURL="https://github.com/i-am-expert/Fast-Word"
                                 tags={[
-                                    "Node.js",
-                                    "Express.js",
-                                    "Socket.io"
+                                    "HTML",
+                                    "CSS",
+                                    "JavaScript",
+                                    "BootStrap"
                                 ]}
                             />
                             <Project 
-                                title="Chat-App" 
-                                desc="A chatting application." 
-                                projectURL="https://github.com/i-am-expert/Chat-App"
+                                title="Blog App" 
+                                desc="A MERN stack application where you can add, delete, view and edit blogs." 
+                                projectURL="https://github.com/i-am-expert/Blog-App"
                                 tags={[
-                                    "Node.js",
+                                    "MongoDB",
                                     "Express.js",
-                                    "Socket.io"
+                                    "React",
+                                    "Node.js"
                                 ]}
                             />
                             <Project 
-                                title="Chat-App" 
-                                desc="A chatting application where multiple clients can connect and talk in different rooms. Implemented using concepts of Socket Programming and Nodejs." 
-                                projectURL="https://github.com/i-am-expert/Chat-App"
+                                title="Brain Twister" 
+                                desc="A quiz application, where you can select the number of questions, difficulty level and category. After completing the game, you can also view the correct answers. Developed using Javascript." 
+                                projectURL="https://github.com/i-am-expert/Brain-Twister"
                                 tags={[
-                                    "Node.js",
-                                    "Express.js",
-                                    "Socket.io"
+                                    "HTML",
+                                    "CSS",
+                                    "JavaScript",
+                                    "BootStrap"
                                 ]}
-                            />                                                                                    
+                            />
+                            <Project 
+                                title="Fingerprint Liveness Detection" 
+                                desc="A deep learning application to detect spoofed fingerprints. Convolutional Neural Network (CNN) is used to train the deep learning model."
+                                projectURL="/"
+                                tags={[
+                                    "Python",
+                                    "Deep Learning"
+                                ]}
+                            />
+                            <Project 
+                                title="Basic Programming Survey" 
+                                desc="A MERN Stack application, where a user with valid email (Sending Verification Code) can submit his/her favorite programming language and can view overall results of already submitted responses (in the form of bar chart)."
+                                projectURL="https://github.com/i-am-expert/Survey-App"
+                                tags={[
+                                    "MongoDB",
+                                    "Express.js",
+                                    "React",
+                                    "Node.js"
+                                ]}
+                            />                                                                                     
+                        </div>
+                        <div className="more-projects text-center">
+                            <a href="https://github.com/i-am-expert" className="more-btn btn hvr-float-shadow"><span className="more-text">Find More Projects</span></a>
                         </div>
                     </div>
                 </div>

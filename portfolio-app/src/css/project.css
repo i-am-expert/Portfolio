@@ -6,26 +6,28 @@
 }
 
 .folder-icon {
-    font-size: 3em;
+    font-size: 2.8em;
     color: rgb(100, 255, 218);
 }
 
 .fa-github {
-    font-size: xx-large;
+    font-size: x-large;
     float: right;
     color: white;
 }
 
 .fa-github:hover {
-    color: rgb(100, 255, 218);;
+    color: rgb(100, 255, 218);
 }
 
 .project-title {
-    margin-top: 1em;
+    margin-top: 1.3em;
+    margin-bottom: 0.8em;
 }
 
 .single-tag {
     margin-right: 1em;
+    font-size: large;
 }
 
 .project-desc {

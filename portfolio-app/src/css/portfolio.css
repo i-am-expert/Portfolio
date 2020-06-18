@@ -1,13 +1,15 @@
 .main-port-div {
     background-color: rgb(10, 25, 47);
-    height: 200vh;
+    height: 210vh;
     padding-top: 1.5em;
     color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .port-heading {
     /* color: rgb(100, 255, 218); */
     font-size: 3.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .port-sub-heading {
@@ -15,6 +17,7 @@
     margin-top: 0.4em;
     padding-bottom: 8px;
     margin-bottom: 0.6em;
+    font-family: cursive;
 }
 
 .skill-div {
@@ -22,6 +25,7 @@
     padding-bottom: 15px;
     /* margin-left: 5em; */
     justify-content: center;
+    font-family: sans-serif;
 }
 
 .skill-div span {
@@ -38,4 +42,22 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-row-gap: 2em;
     grid-gap: 2em;
+}
+
+.more-projects {
+    margin-top: 3em;
+}
+
+.more-btn {
+    border: 1px solid rgb(100, 255, 218);
+    color: rgb(100, 255, 218);
+    padding: .75em;
+}
+
+.more-btn:hover {
+    color: rgb(100, 255, 218);
+}
+
+.more-text {
+    font-size: 1.2em;
 }
