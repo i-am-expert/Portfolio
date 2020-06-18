@@ -1,0 +1,39 @@
+.card {
+    background-color: rgb(23, 42, 69);
+    color: white;
+    padding: 1.5em;
+    position: relative;
+}
+
+.folder-icon {
+    font-size: 3em;
+    color: rgb(100, 255, 218);
+}
+
+.fa-github {
+    font-size: xx-large;
+    float: right;
+    color: white;
+}
+
+.fa-github:hover {
+    color: rgb(100, 255, 218);;
+}
+
+.project-title {
+    margin-top: 1em;
+}
+
+.single-tag {
+    margin-right: 1em;
+}
+
+.project-desc {
+    margin-bottom: 2.5em;
+}
+
+.project-tags {
+    color: white;
+    position: absolute;
+    bottom: 1.5em;
+}

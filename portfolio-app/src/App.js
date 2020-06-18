@@ -3,13 +3,15 @@ import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 // import Intro from './components/Intro';
-import About from './components/About';
+// import About from './components/About';
+import Portfolio from './components/Portfolio';
 
 function App() {
   return (
     <div>
-      {/* <Intro /> */}
-      <About />
+      {/* <Intro />
+      <About /> */}
+      <Portfolio />
     </div>
   );
 }

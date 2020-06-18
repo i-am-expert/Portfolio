@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../css/about.css';
 
-export class About extends Component {
+class About extends Component {
     render() {
         return (
             <div className="container main-div" style={mainDivStyle}>
@@ -43,7 +43,9 @@ export class About extends Component {
 }
 
 const mainDivStyle = {
-    marginTop: "1.3em"
+    //marginTop: "2em",
+    paddingTop: "2em",
+    height: "100vh"
 }
 
 export default About
