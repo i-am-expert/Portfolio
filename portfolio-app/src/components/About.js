@@ -3,6 +3,11 @@ import '../css/about.css';
 
 class About extends Component {
 
+    resume = (e) => {
+        e.preventDefault();
+        window.location = "/resume.pdf";
+    }
+
     codechef = () => {
         window.location = "https://www.codechef.com/users/i_am_expert";
     }
@@ -21,9 +26,7 @@ class About extends Component {
                 <div style={{display: "flex"}}>
                     <h1>ABOUT</h1>
                     <div style={{alignSelf: "center", marginLeft: "45em"}}>
-                        <form style={{display: "inline"}} method="get" action="resume.pdf">
-                            <button type="submit" className="top-about-btn hvr-underline-from-center" style={{marginRight: "1em"}}>RESUME</button>
-                        </form>
+                        <button onClick={this.resume} className="top-about-btn hvr-underline-from-center" style={{marginRight: "1em"}}>RESUME</button>
                         <a href="#contact" className="top-about-btn hvr-underline-from-center">HIRE ME</a>
                     </div>
                 </div>      
