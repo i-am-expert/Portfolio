@@ -29,7 +29,7 @@ class About extends Component {
                 </div>      
                 <div>
                     <img src="images/profile_pic.jpg" alt="Profile Pic" />
-                    <p className="about-content">I have completed B.Tech from NIT Kurukshetra in Information Technology (2016-20). I am currently working as a software engineer in Bharti Airtel, Gurgaon. I am quite interested in competitive Programming and Web Development.</p>
+                    <p className="about-content">I have completed B.Tech from NIT Kurukshetra in Information Technology (2016-20). I am currently working as a software engineer in Bharti Airtel, Gurgaon. I am quite interested in Competitive Programming and Web Development.</p>
                 </div> 
                 <br />
                 <div className="about-wrapper">
