@@ -2,6 +2,11 @@ import React, { Component } from 'react';
 import '../css/footer.css';
 
 class Footer extends Component {
+    topFunction = () => {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      }
+    
     render() {
         return (
             <React.Fragment>
@@ -16,6 +21,17 @@ class Footer extends Component {
                         <a className="footer-icon-class hvr-grow" href="https://www.instagram.com/rishabhsethi2708/"><i className="footer-icon fa fa-instagram"></i></a>
                     </div>
                 </div>
+                <span onClick={this.topFunction} title="Go to top">
+                    <div className="center-con arrow-bounce bouncing-top-arrow" id="toTop">
+                        <div className="top-round round">
+                            <div id="cta">
+                            <span className="top-arrow arrow primera next "></span>
+                            <span className="top-arrow arrow segunda next "></span>
+                            </div>
+                        </div>
+                    </div>
+                </span>
+
             </React.Fragment>
         )
     }
